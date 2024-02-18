@@ -1,3 +1,4 @@
-# basic-template
+# Actividad 3.2.2
+## Punto 2
 
-This is the basic files to start coding a simple HTML/CSS/JS static web site. 
+URL del sitio web: [TC2005B](https://andresdanielmtz.github.io/TC2005B.A02/)
