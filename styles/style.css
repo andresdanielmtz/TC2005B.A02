@@ -7,5 +7,23 @@ td {
 .table_icon {
     height: 2rem;
     width: 100%;
-    
+
+}
+.page-width {
+    width: 100%;
+    height: auto;
+}
+
+.desc-footer {
+    font-size: 0.8rem;
+}
+
+.page-half {
+    width: 30%;
+    height: auto;
+}
+
+.footer-img {
+    width: 16%;
+    height: auto;
 }
