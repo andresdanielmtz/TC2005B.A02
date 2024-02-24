@@ -6,69 +6,88 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Actividad 2 de la Tarea Evaluativa 3.2.2 para la materia de Construcción de Software y Toma de Decisiones.">
+    content="Actividad 2 de la Tarea Evaluativa 3.3.2 para la materia de Construcción de Software y Toma de Decisiones.">
   <meta name="author" content="Andrés Martínez A00224763">
-  <title>Actividad 3.2.2 - Punto 2</title>
+  <title>Actividad 3.3.2 - Punto 2</title>
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="icon" href="/images/favicon.ico" type="image/ico" sizes="16x16">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.2.0/css/fork-awesome.min.css">
 </head>
 
 <body>
-
   <header>
     <img src="./images/logo.png" alt="img">
     <div>
       <ul class="navigation-bar">
-        <a href="https://example.com/">One</a>
 
-        <a href="https://example.com/">Two</a>
+        <li> <a href="https://example.com/">Home</a> </li>
 
-        <a href="https://example.com/">Three</a>
+        <li> <a href="https://example.com/">Location</a> </li>
+
+        <li> <a href="https://example.com/">Testimonials</a> </li>
+
+        <li> <a href="https://example.com/">Contact Us </a> </li>
 
       </ul>
     </div>
-    <button>Log in</button>
+    <button class="red-button">Log in</button>
   </header>
 
   <main>
-    <img src="./images/img1.png" class="page-width" alt="img">
-    <section>
+    <img src="./images/img1.png" class="page-width" alt="img" id="header-img">
 
-      <h3> Here, we put kids in charge.</h3>
-      <h4>Preposterous? Possibly, Effective? You betcha. </h4>
+    <section id="yellow_section">
 
-      <p> When you trust kids, they trust themselves. For 44 years, we’ve put kids in charge of their own learning
-        experience. They try, fail, and learn on their own. They learn to trust their own judgment, and tackle the
-        challenges of an ever changing world with creativity and confidence.
-        Campers choose minute to minute from a variety of activities including, sewing, stop-motion animation,
-        music, sports & recreation, makers crafts, bread making, and more. They’ll decide what they want to do, and
-        for how long. Our job is to get out of their way, cheerlead creative risks, and provide just enough guidance
-        to make sure nobody does anything totally* asinine.
+      <div id="yellow_main_section">
+        <h3 id="yellow_h3" class="yellow_subtitle"> Here, we put kids in charge.</h3>
+        <h4 id="yellow_h4" class="yellow_subtitle">Preposterous? Possibly, <br> Effective? You betcha. </h4>
 
-        <br>
-        <span class="desc-footer"> *Totally asinine: By our definition, mistakes aren’t asinine. They’re how you
-          learn. </span>
-      </p>
+        <div id="yellow_content">
+          <p> When you trust kids, they trust themselves. For 44 years, we’ve put kids in charge of
+            their own learning
+            experience. They try, fail, and learn on their own. They learn to trust their own judgment, and tackle the
+            challenges of an ever changing world with creativity and confidence. <br>
+            Campers choose minute to minute from a variety of activities including, sewing, stop-motion animation,
+            music, sports & recreation, makers crafts, bread making, and more. They’ll decide what they want to do, and
+            for how long. Our job is to get out of their way, cheerlead creative risks, and provide just enough guidance
+            to make sure nobody does anything totally* asinine.
 
-      <aside>
+            <br>
+            <span class="desc-footer"> *Totally asinine: By our definition, mistakes aren’t asinine. They’re how you
+              learn. </span>
+          </p>
+        </div>
+      </div>
+
+      <aside id="yellow_section_aside">
         <img src="./images/img2.png" alt="img">
-        <h3>Holiday camps</h3>
+        <h3 id="yellow_aside_title">Holiday camps</h3>
         <p>Camp shouldn’t have an off-season. Find your local camp for fall, winter, spring & school breaks to learn all
           about our activities, specials, and more. Camp is for kids ages 4–12.</p>
-        <button>FIND A HOLIDAY CAMP</button>
+        <button class="red-button">FIND A HOLIDAY CAMP</button>
       </aside>
     </section>
 
-    <section>
-      <h2> +70 Locations - Probably near you.</h2>
-      <h3> Select a location to learn more about our camps</h3>
+    <section id="location-title-section">
+      <div id="location-title">
+        <h2 class="location-content" id="main-title">+70 Locations - Probably near you.</h2>
+        <h3 class="location-content" id="secondary-title"> Select a location to learn more about our camps</h3>
+      </div>
+    </section>
 
-      <img src="./images/img3.png" alt="img" class="page-width">
+
+
+    <div id="table-section">
       <table>
-        <tr>
-          <td colspan="4"><br></td>
-        </tr>
+
+        <thead> 
+          <tr>
+            <th>State</th>
+            <th>City</th>
+            <th>Camp Type</th>
+            <th>Available</th>
+          </tr>
+        </thead>
         <tr>
           <td>Alabama</td>
           <td><u>Alexander City</u></td>
@@ -123,114 +142,158 @@
           <td><img src="./images/checkmark.png" class="table_icon" alt=""></td>
         </tr>
       </table>
+    </div>
+
+    <section id="kid_duck">
+      <div id="kid_duck_section">
+        <h2> Testimonials</h2>
+        <p>Learn where your website is coming from, what your visitors are looking for, and how they're interacting with
+          your content or products through our in-depth Analytics tools.
+        </p>
+
+        <div class="user-full-container">
+          <div class="container-user-box">
+            <div class="user-box" id="first">
+              <div class="user-title">
+                <img src="./images/icon1.png" alt="icon" class="icon-testimonial">
+                <div class="user-title-text">
+
+                  <h4>Mayra Dutch</h4>
+                  <h5>AIR FLOW</h5>
+                </div>
+              </div>
+
+              <q>The best solution in the market to solve any problem you may have.</q>
+            </div>
+
+            <div class="user-box" id="second">
+              <div class="user-title">
+                <img src="./images/icon2.png" alt="icon" class="icon-testimonial">
+                <div class="user-title-text">
+
+                  <h4>Anne Donovan</h4>
+                  <h5>AIR FLOW</h5>
+                </div>
+              </div>
+              <q>The best solution in the market to solve any problem you may have.</q>
+            </div>
+
+            <div class="user-box" id="third">
+              <div class="user-title">
+                <img src="./images/icon3.png" alt="icon" class="icon-testimonial">
+                <div class="user-title-text">
+                  <h4>Anne Donovan</h4>
+                  <h5>AIR FLOW</h5>
+                </div>
+              </div>
+              <q>The best solution in the market to solve any problem you may have.</q>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div id="blue-box"> </div>
     </section>
+
 
     <section>
-      <img src="./images/img4.png" alt="img" class="page-width">
+      <div id="contact-wrapper">
+        <div id="contact-img">
 
-      <h2> Testimonials</h2>
-      <p>Learn where your website is coming from, what your visitors are looking for, and how they're interacting with
-        your content or products through our in-depth Analytics tools.</p>
+          <img src="./images/img5.png" alt="img">
+        </div>
 
-      <div>
-        <img src="./images/icon1.png" alt="icon" class="icon-testimonial">
-        <h4>Mayra Dutch</h4>
-        <h5>AIR FLOW</h5>
+        <div class="contact-forms-container">
+          <div id="contact-forms">
 
-        <q>The best solution in the market to solve any problem you may have.</q>
-      </div>
+            <h3> Contact Us </h3>
+            <br>
 
-      <div>
-        <img src="./images/icon2.png" alt="icon" class="icon-testimonial">
-        <h4>Anne Donovan</h4>
-        <h5>AIR FLOW</h5>
-        <q>The best solution in the market to solve any problem you may have.</q>
-      </div>
+            <h5>Email Address</h5>
+            <input type="text" placeholder="Email"> <br>
 
-      <div>
-        <img src="./images/icon3.png" alt="icon" class="icon-testimonial">
-        <h4>Anne Donovan</h4>
-        <h5>AIR FLOW</h5>
-        <q>The best solution in the market to solve any problem you may have.</q>
+            <h5>Your name</h5>
+            <input type="text" placeholder="Name"> <br>
+
+
+            <h5>Your location</h5>
+            <div class="contact-location">
+              <input type="text" placeholder="City" id="contact-location-left">
+              <input type="text" placeholder="Zip Code" id="contact-location-right"> <br>
+            </div>
+            <h5>Your Message</h5>
+            <input type="text" placeholder="Message"> <br>
+            <button class="red-button" id="submit-button">Submit</button>
+          </div>
+        </div>
       </div>
     </section>
-    <section>
-      <h3> Contact Us </h3>
 
-      <img src="./images/img5.png" alt="img" class="page-half">
-      <br>
-
-      <h5>EMAIL ADDRESS</h5>
-      <input type="text" placeholder="Email"> <br>
-
-      <h5>YOUR NAME</h5>
-      <input type="text" placeholder="Name"> <br>
-
-      <h5>YOUR location</h5>
-      <input type="text" placeholder="City">
-      <input type="text" placeholder="Zip Code"> <br>
-
-      <h5>YOUR MESSAGE</h5>
-      <input type="text" placeholder="Message"> <br>
-      <button>Submit</button>
-    </section>
   </main>
 
   <footer>
     <img src="./images/footer-img1.png" alt="footer-img" class="footer-img">
-    <div>
-      <h4>About S&K</h4>
-      <ul>
-        <li>
-          <a href="https://steveandkatescamp.com/philosophy/">Philosophy</a>
-        </li>
-        <li>
-          <a href="https://steveandkatescamp.com/jobs">Jobs</a>
-        </li>
-        <li>
-          <a href="https://steveandkatescamp.com/press">Press</a>
-        </li>
-        <li>
-          <a href="https://steveandkatescamp.com/faq">FAQs</a>
-        </li>
-        <li>
-          <a href="https://steveandkatescamp.com/events/">Events</a>
-        </li>
-      </ul>
-    </div>
+    <div class="footer-copyright">
+      <div class="footer-links">
+        <div class="list-footer">
+          <h4 class="list-footer-title">About S&K</h4>
+          <ul class="list-footer">
+            <li>
+              <a href="https://steveandkatescamp.com/philosophy/">Philosophy</a>
+            </li>
+            <li>
+              <a href="https://steveandkatescamp.com/jobs">Jobs</a>
+            </li>
+            <li>
+              <a href="https://steveandkatescamp.com/press">Press</a>
+            </li>
+            <li>
+              <a href="https://steveandkatescamp.com/faq">FAQs</a>
+            </li>
+            <li>
+              <a href="https://steveandkatescamp.com/events/">Events</a>
+            </li>
+          </ul>
+        </div>
 
-    <div>
-      <h4>Helpful Links</h4>
-      <ul>
-        <li><a href="https://steveandkatescamp.com/fees/financial-aid">Financial Aid</a></li>
-        <li><a href="https://steveandkatescamp.com/bright-horizons">Using Bright Horizons Back-Up Care</a></li>
-        <li><a href="https://steveandkatescamp.com/email">Email List</a></li>
-        <li><a href="https://steveandkatescamp.com/contact">Contact</a></li>
-      </ul>
+        <div>
+          <h4 class="list-footer-title">Helpful Links</h4>
+          <ul class="list-footer">
+            <li><a href="https://steveandkatescamp.com/fees/financial-aid">Financial Aid</a></li>
+            <li><a href="https://steveandkatescamp.com/bright-horizons">Using Bright Horizons Back-Up Care</a></li>
+            <li><a href="https://steveandkatescamp.com/email">Email List</a></li>
+            <li><a href="https://steveandkatescamp.com/contact">Contact</a></li>
+          </ul>
+
+        </div>
+
+        <div>
+          <h4 class="list-footer-title">Our Camps</h4>
+          <ul class="list-footer">
+            <li><a href="https://steveandkatescamp.com/locations">Summer Camps</a></li>
+            <li><a href="https://steveandkatescamp.com/winter-spring-camps">Spring Break Camps</a></li>
+            <li>
+              <a href="https://steveandkatescamp.com/winter-spring-camps">Winter Break Camps</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="list-footer-title">Legal Stuff</h4>
+          <ul class="list-footer">
+            <li><a href="https://steveandkatescamp.com/liability-waiver"> Liability Waiver</a></li>
+            <li><a href="https://steveandkatescamp.com/dmca-policy">DMCA</a></li>
+            <li><a href="https://steveandkatescamp.com/online-guidelines-and-safety">Steve & Kate's Virtual Camp
+                Guidelines
+                & Safety</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <i id="copyright">Copyright &copy; 2024. All Rights Reserved.</i>
 
     </div>
-
-    <div>
-      <h4>Our Camps</h4>
-      <ul>
-        <li><a href="https://steveandkatescamp.com/locations">Summer Camps</a></li>
-        <li><a href="https://steveandkatescamp.com/winter-spring-camps">Spring Break Camps</a></li>
-        <li>
-          <a href="https://steveandkatescamp.com/winter-spring-camps">Winter Break Camps</a>
-        </li>
-      </ul>
-    </div>
-    <div>
-      <h4>Legal Stuff</h4>
-      <ul>
-        <li><a href="https://steveandkatescamp.com/liability-waiver"> Liability Waiver</a></li>
-        <li><a href="https://steveandkatescamp.com/dmca-policy">DMCA</a></li>
-        <li><a href="https://steveandkatescamp.com/online-guidelines-and-safety">Steve & Kate's Virtual Camp Guidelines
-            & Safety</a></li>
-      </ul>
-    </div>
-
-    <i>Copyright &copy; 2024. All Rights Reserved.</i>
   </footer>
 </body>
 
