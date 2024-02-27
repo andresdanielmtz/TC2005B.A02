@@ -21,7 +21,7 @@ header {
     font-weight: 300;
     outline: none;
     border: none;
-    
+
 }
 
 header>button {
@@ -49,7 +49,7 @@ header>button {
 
 }
 
-.navigation-bar>li>a { 
+.navigation-bar>li>a {
     color: black;
     margin-right: 3rem;
     margin-left: 3rem;
@@ -167,6 +167,8 @@ header>button {
 
 .location-content#secondary-title {
     font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 3rem;
 }
 
 table {
@@ -178,8 +180,9 @@ table {
 }
 
 th {
-    background-color: #1a4367;
+    background-color: #1C71A1;
     color: white;
+    text-transform: uppercase;
 }
 
 th,
@@ -257,7 +260,7 @@ tr:nth-child(even) {
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    width: 70%;
+    width: 75%;
     margin: 3rem;
 
 }
@@ -305,6 +308,8 @@ tr:nth-child(even) {
 .user-title {
     display: flex;
     flex-direction: row;
+    align-items: center;
+
 }
 
 .user-title-text {
@@ -343,8 +348,6 @@ tr:nth-child(even) {
     margin-bottom: 3rem;
 
 }
-
-
 
 .contact-forms-container {
     display: flex;
@@ -447,14 +450,11 @@ tr:nth-child(even) {
 footer {
     display: flex;
     flex-direction: row;
-
     background-color: black;
     color: white;
-
 }
 
 .footer-copyright {
-
     display: flex;
     flex-direction: column;
     margin-left: 10rem;
@@ -469,12 +469,10 @@ li>a {
 }
 
 .list-footer {
-
     list-style-type: none;
     padding-left: 0;
     display: flex;
     flex-direction: column;
-
 }
 
 .footer-links {
@@ -489,7 +487,7 @@ li>a {
     flex-direction: row;
     margin-top: 1rem;
     text-align: center;
-
+    margin-bottom: 0.5rem;
 }
 
 .list-footer-title {
@@ -498,4 +496,5 @@ li>a {
     margin-bottom: 1rem;
     margin-top: 1rem;
     padding-top: 3rem;
+    color: #BDBDBD;
 }
