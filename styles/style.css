@@ -513,13 +513,10 @@ li>a {
         margin: 0;
     }
 
-    #yellow_content {
-        width: 100%;
-    }
-
     #yellow_content p {
         width: 100%;
     }
+
 
     #yellow_aside_title {
         margin-top: 1rem;
@@ -535,6 +532,7 @@ li>a {
     .navigation-bar>li>a {
         margin-right: 0;
         margin-left: 0;
+
     }
 
     header {
@@ -579,6 +577,7 @@ li>a {
         flex-direction: column;
         text-align: left;
         margin-left: 0;
+        z-index: 0;
     }
 
     #kid_duck_section>h2 {
@@ -593,29 +592,101 @@ li>a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        z-index: 0;
+
     }
 
     .container-user-box {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        z-index: 0;
     }
 
     .user-box {
         margin-top: 2rem;
         margin-bottom: 2rem;
+        margin-left: 0;
+    }
+
+
+    #contact-img>img {
+        width: 100%;
+        height: auto;
     }
 
     #contact-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
+
     }
 
-    #contact-img>img {
+    #blue-box {
+        height: 75rem;
+    }
+
+    #contact-forms {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 90%;
+    }
+
+
+    .contact-location {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    #contact-location-right {
+        margin-left: 0;
+        width: 95%;
+        margin-top: 2rem;
+    }
+
+    #contact-location-left {
+        margin-right: 0;
+        width: 95%;
+
+
+    }
+
+    .contact-forms-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 1rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-img {
         width: 100%;
         height: auto;
+    }
+
+    .footer-copyright {
+        text-align: center;
+        margin: 0;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #copyright {
+        text-align: center;
     }
 
 }
