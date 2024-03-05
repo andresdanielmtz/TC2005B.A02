@@ -498,3 +498,124 @@ li>a {
     padding-top: 3rem;
     color: #BDBDBD;
 }
+
+@media (max-width: 768px) {
+    #yellow_section {
+        flex-direction: column;
+    }
+
+    #yellow_section_aside {
+        order: 3;
+        margin-top: 1rem;
+    }
+
+    #yellow_main_section {
+        margin: 0;
+    }
+
+    #yellow_content {
+        width: 100%;
+    }
+
+    #yellow_content p {
+        width: 100%;
+    }
+
+    #yellow_aside_title {
+        margin-top: 1rem;
+    }
+
+    .navigation-bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .navigation-bar>li>a {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .red-button {
+        margin-top: 1rem;
+    }
+
+    #yellow_main_section {
+        margin-left: 1rem;
+    }
+
+    #yellow_head {
+        margin-bottom: 2rem;
+    }
+
+    #yellow_content {
+        text-align: left;
+    }
+
+    .yellow_subtitle {
+        margin-bottom: 6em;
+    }
+
+    table {
+        display: block;
+        width: 100%;
+        height: auto;
+        overflow-x: auto;
+        font-size: 0.8rem;
+    }
+
+    .table_icon {
+        width: 35%;
+    }
+
+    #kid_duck_section {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    #kid_duck_section>h2 {
+        font-size: 2rem;
+    }
+
+    #kid_duck_section>p {
+        font-size: 1.5rem;
+    }
+
+    .user-full-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 0;
+    }
+
+    .container-user-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user-box {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #contact-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact-img>img {
+        width: 100%;
+        height: auto;
+    }
+
+}
